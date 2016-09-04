@@ -2,8 +2,8 @@ package com.mowenxi;
 
 import com.carrotsearch.randomizedtesting.annotations.Name;
 import com.carrotsearch.randomizedtesting.annotations.ParametersFactory;
+import com.mowenxi.hanes.AnalysisHanLpPlugin;
 
-import org.elasticsearch.plugin.analysis.hanlp.AnalysisHanLpPlugin;
 import org.elasticsearch.plugins.Plugin;
 import org.elasticsearch.test.rest.ESRestTestCase;
 import org.elasticsearch.test.rest.RestTestCandidate;
